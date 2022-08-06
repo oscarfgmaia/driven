@@ -1,0 +1,95 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.SITE{
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    height: 40px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DBDBDB
+}
+.header-objects{
+    width: 935px;
+    height: 28px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    height: 28px;
+    align-items: center;
+    background-color: red;
+}
+.logos img{
+    height: 100%;
+}
+
+.header-logos{
+    display: flex;
+}
+ion-icon{
+    font-size: 22px;
+}
+.vl{
+    border-left: 1px solid #DBDBDB;
+    height: 22px;
+}
+
+.header-search{
+    box-sizing: border-box;
+    width: 215px;
+    height: 28px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 2px;
+}
+.header-search p{
+    color: #979797;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.icons{
+    background-color: red;
+    width: 140px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-icons{
+    font-size: 22px;   
+}
+
+.container-stories{
+    background-color: orange;
+    width: 614px;
+    height: 118px;
+}
+
+.container-posts{
+    background-color: blue;
+    width: 614px;
+}
+.posts{
+    background-color: aquamarine;
+    width: 100%;
+    height: 749px;
+}
