@@ -364,22 +364,62 @@ ion-icon {
 
 @media (max-width: 613px){
 
+    .setinha{
+        display: none;
+    }
+
     .CENTER-SITE {
-        background-color: cyan;
+        width: 100%;
     }
     
     .SITE-FLOATING {
-        background-color: black;        
+        width: 100%;
     }
     
     .SITE-BOX {
-        background-color: purple;
+        width: 100%;
     }
     .CONTAINER-LEFT{
-        background-color: green;
         width: 100%;
     }
     .CONTAINER-RIGHT{
-        background-color: yellow;
+        width: 100%;
+    }
+    
+    .container-stories {
+        width: 100%;
+        overflow-x: auto;
+        background-color: initial;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+
+
+    .container-posts {
+        width: 100%;
+    }
+    
+    .posts {
+        width: 100%;
+        height: auto;
+    }
+    
+    .post-header {
+        width: 100%;
+        
+    }
+
+    .post-actions {
+        width: 100%;
+    }
+
+    .post-picture {
+        width: 100%;
+        height: auto;
+    }
+    
+    .post-picture img {
+        width: 100%;
+        height: auto;
     }
 }
