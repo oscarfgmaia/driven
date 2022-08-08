@@ -174,7 +174,6 @@ ion-icon {
 }
 
 .container-posts {
-    width: 614px;
     display: flex;
     flex-direction: column;
 }
@@ -183,16 +182,17 @@ ion-icon {
     background-color: #FFFFFF;
     box-sizing: border-box;
     width: 614px;
-    height: 749px;
+    height: 799px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 60px;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
 }
 
 .post-header {
+    background-color: green;
     box-sizing: border-box;
     padding-left: 10px;
     padding-right: 10px;
@@ -225,6 +225,20 @@ ion-icon {
 }
 
 .post-picture img {
+    width: 612px;
+    height: 612px;
+}
+
+.post-video{
+    box-sizing: border-box;
+    width: 612px;
+    height: 612px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.post-video video{
     width: 612px;
     height: 612px;
 }
@@ -269,6 +283,17 @@ ion-icon {
 
 .post-reactions h1 {
     margin-left: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+.post-comments{
+    background-color: #139EF2;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+.post-comments h1 {
     font-weight: 500;
     font-size: 14px;
     line-height: 16.41px;
@@ -429,6 +454,15 @@ ion-icon {
         height: auto;
     }
 
+    .post-video{
+        width: 100%;
+        height: auto;
+    }  
+
+    .post-video video{
+        width: 100%;
+        height: auto;
+    }
     .header-search{
         display: none;
     }
