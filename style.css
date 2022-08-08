@@ -501,7 +501,7 @@ ion-icon {
         position: fixed;
         height: 54px;
         z-index: 3;
-        top: calc(100% - 54px);
+        bottom:0px;
     }
     .footer-objects{
         box-sizing: border-box;
